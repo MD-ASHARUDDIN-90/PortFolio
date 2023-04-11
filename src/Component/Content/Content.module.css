@@ -1,0 +1,40 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.mainBox{
+    display: flex;
+    padding-top: 5rem;
+    background-color: #1c1a42;
+    height: 80vh;
+    color: white;
+}
+.main{
+    /* border: 1px solid; */
+    margin-left: 5rem;
+    margin-top: 3rem;
+    width: 50%;
+}
+.main h2{
+    font-family: Lucida Handwriting;
+    font-size: 1.2rem;
+}
+.name{
+    font-size: 2rem;
+    font-family: cursive;
+}
+.textWrap{
+    width: 100%;
+    font-size: 1.5rem;
+}
+.navLink{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    color: #1c1a42;
+}
+.image{
+    width: 50vw;
+    height: 60vh;
+    
+}
