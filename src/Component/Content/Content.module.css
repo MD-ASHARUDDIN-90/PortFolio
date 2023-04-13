@@ -21,7 +21,41 @@ body{
 .name{
     font-size: 2rem;
     font-family: cursive;
+    /* opacity:0; */
+    animation :  float 4s ease-in-out infinite ,coloring 2s ease infinite ;
+    animation-delay: 0.3s;
+    transition: 0.5s ease;
 }
+
+@keyframes float {
+    0%{
+        transform : translateY(0px);
+        /* opacity: 0; */
+    }
+    50%{
+        transform : translateY(-10px);
+        /* opacity: 0; */
+    }
+    100%{
+        transform: translateY(0px);
+        /* opacity: 1; */
+    }
+}
+
+@keyframes coloring {
+    0%{
+        color: tomato;
+    }
+    30%{
+        color: chartreuse;
+    }
+    60%{
+        color: red;
+    }
+    100%{
+        color: rgb(219, 234, 7);
+    }
+  }
 .textWrap{
     width: 100%;
     font-size: 1.5rem;

@@ -9,7 +9,7 @@ export default function Project() {
         <div className={style.main}>
         <NavBar/>
         <div className={style.mainContent}>
-        <h2>Projects</h2>
+        <h2><u>Projects</u></h2>
         <div className={style.subMain}>
         {data.map((el,ind)=>
             <div className={style.tab} key={ind}>

@@ -14,6 +14,47 @@
 }
 .about h2{
     font-size: 2rem;
+    animation: fall 1s ease forwards;
+    opacity: 0;
+}
+@keyframes fall {
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+.about p{
+    animation: rightscroll 1s ease forwards;
+    opacity: 0;
+}
+@keyframes rightscroll {
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.about ul{
+    animation: rise 1s ease forwards;
+    opacity: 0;
+}
+@keyframes rise {
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
 }
 
 .image{

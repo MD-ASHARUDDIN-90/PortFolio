@@ -12,8 +12,8 @@ export default function Contact() {
         <h3>Feel free to connect with me</h3>
     
         <a href='https://www.linkedin.com/in/md-asharuddin-16440314b/' target="blank"><BsLinkedin className={style.icon}/></a>
-        <a href='https://github.com/MD-ASHARUDDIN-90' target="blank"><BsGithub className={style.icon}/></a>
-        <a href='mailto:asharansari90@gmail.com' target="blank"><MdAttachEmail className={style.icon}/></a>
+        <span  className={style.git}><a href='https://github.com/MD-ASHARUDDIN-90' target="blank"><BsGithub className={style.icon}/></a></span>
+        <span  id="email"> <a href='mailto:asharansari90@gmail.com' target="blank"><MdAttachEmail className={style.icon}/></a></span>
         
         
         </div>
